@@ -1,0 +1,68 @@
+
+#text{
+ text-align:left;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100px;
+  height: 100x;
+
+  display: block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  max-width: 50px;
+}
+
+#smaller {
+  margin-top: 20px;
+
+}
+
+.me {
+  margin-top: 120px;
+  border-bottom: 1px solid black;
+}
+.verder {
+  border-bottom: 1px solid black;
+ 
+}
+
+h2 {
+  color: #7c3f51;
+}
+
+body {
+  background-color: #a89f91;
+  text-align: left;
+  font-family: sans-serif;
+ 
+  color: white;
+}
+
+.skills {
+}
+
+header,
+footer {
+  background: #222831;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ a{
+ text-decoration: none;
+ color: #7c3f51;
+ }
+ a:hover{
+   text-decoration: underline;
+ }
+ 

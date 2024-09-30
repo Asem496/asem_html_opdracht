@@ -1,0 +1,171 @@
+*, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-asem);
+    font-family: var(--asems-font);
+    --breadtext: var(1.5rem);
+ 
+}
+
+:root {
+    --bg-asem: #A89F91;
+    --asems-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    --header-color: #7C3F51; 
+    --paragraph-color: white;
+    --h1-font-size: 3rem;
+    --image-shadow:  antiquewhite 0 0 20px;
+    --li-font-size: 2rem;
+}
+
+p {
+    color:var(--paragraph-color);
+    font-size: var(--breadtext);
+    text-shadow: rgba(0, 0, 0, 0.477) 5px 5px 5px;
+}
+
+li {
+color: var(--paragraph-color);
+font-size:var(--li-font-size);
+ 
+}
+
+h1, h2, h3 {
+    font-style: italic;
+    color: var(--header-color);
+    font-size: var(--h1-font-size);
+}
+
+.about-me {
+    display: flex;
+    gap: 2rem;
+    padding: 10rem;
+    align-items: center;
+}
+
+.about-me img {
+    width: 20rem;
+    border-radius: 2000px; 
+    box-shadow: var(--image-shadow);
+}
+
+.about-me h1 {
+    color: var(--header-color);
+    
+}
+
+.about-me-text{
+      font-size: 1.5rem;
+      margin-left: 3rem;
+}
+
+.free-time{
+    padding: 8rem;
+}
+.free-time h2{
+    color: var(--header-color);
+    font-size: 4rem;
+}
+
+ 
+.free-time p{
+    width: 50%;
+}
+
+.free-item-container{
+    display: flex;
+    width: 100%;
+    padding: 3rem 0;
+
+}
+
+.free-item-container .list-container {
+    width: 30%;
+}
+
+.free-item-container .list-container h3 {
+    font-size: 3rem;
+}
+
+.free-item-container .list-container ol {
+    font-size: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.216) 5px 5px 5px;
+
+}
+
+.free-item-container .img-container {
+    position: relative;
+}
+
+
+
+.free-item-container .img-container img {
+    width: 20rem;
+    height: 24rem;
+    border-radius: 5rem;
+    aspect-ratio: 1/1;
+   box-shadow: var(--image-shadow)
+}
+
+.free-item-container .img-container img:first-of-type {
+    position: absolute;
+    transform: translate(371px, -223px);
+
+
+    z-index: 1;
+}
+.free-item-container .img-container img:nth-of-type(2) {
+    position: absolute;
+    transform: translate(662px, -318px);
+
+}
+
+.img-gemeente{
+    margin-left: 50rem;
+ margin-top: -10rem;
+  
+ border-radius: 3rem;
+ width: fit-content;
+ 
+    
+   
+}
+
+.woonplaats-tekst{
+ width: 600px;
+    font-size: 1.5rem;
+ 
+}
+
+.mijn-woonplaats{
+    margin-left: 20px;
+}
+ 
+.ervaring-tekst{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.ervaringen > h3{
+    margin-left: 20px;
+}
+.logo-list {
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;  
+    list-style: none; 
+    padding: 0;  
+  }
+
+ 
+.logo-list > li {
+    margin: 0 10px; 
+     
+  }
+
+   
+.logo-list img {
+    max-width: 150px;  
+    height: auto;  
+    border-radius: 75px;
+  }
+ 
